@@ -214,7 +214,7 @@ extension NSObject {
         context: UnsafeMutableRawPointer? = nil
     ) {
         performForAllKeyPaths { keyPath in
-            addObserver(observer, forKeyPath: keyPath, options: options, context: context)
+//            addObserver(observer, forKeyPath: keyPath, options: options, context: context)
         }
     }
 
@@ -223,7 +223,7 @@ extension NSObject {
         context: UnsafeMutableRawPointer? = nil
     ) {
         performForAllKeyPaths { keyPath in
-            removeObserver(observer, forKeyPath: keyPath, context: context)
+//            removeObserver(observer, forKeyPath: keyPath, context: context)
         }
     }
 
